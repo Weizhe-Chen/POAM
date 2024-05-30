@@ -1,0 +1,5 @@
+name: ovc++
+num_inducing: 500
+learn_inducing: False
+batch_size: 256
+jitter: 1e-6

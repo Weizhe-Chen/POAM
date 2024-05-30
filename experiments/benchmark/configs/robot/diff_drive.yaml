@@ -1,0 +1,4 @@
+control_rate: 10.0
+max_lin_vel: 1.0
+max_ang_vel: 1.0
+goal_radius: 0.1

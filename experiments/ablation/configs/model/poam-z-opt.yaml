@@ -1,0 +1,7 @@
+name: poam-z-opt
+num_inducing: 500
+learn_inducing: True
+learn_variational: False
+use_online_elbo: False
+batch_size: 256
+jitter: 1e-6

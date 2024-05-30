@@ -1,0 +1,5 @@
+name: ak
+dim_hidden: 10
+dim_output: 10
+min_lengthscale: 0.05
+max_lengthscale: 0.5

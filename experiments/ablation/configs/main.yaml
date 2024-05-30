@@ -1,0 +1,27 @@
+visualize: False
+save_results: True
+output_folder: ./outputs
+seed: 0
+eval_grid: [50, 50]
+num_bezier_points: 50
+num_train_steps: 10
+max_num_samples: 5000
+plot_robot_interval: 0
+
+# algorithmic components
+defaults:
+  - map: env4
+  - sensor: point_sensor
+  - robot: diff_drive
+  - kernel: ak
+  - likelihood: gaussian
+  - model: poam-online-elbo
+  - planner: max_entropy
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+  - _self_
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
